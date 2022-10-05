@@ -7,12 +7,12 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="Genug gelesen? Jetzt ist es an der Zeit endlich zu spielen."
+      subtitle="Spiele Schach, einfach!"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="https://play.einfachschach.de">
           <a>
-            <Button>Get Started</Button>
+            <Button>Jetzt Spielen</Button>
           </a>
         </Link>
       }

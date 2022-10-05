@@ -3,27 +3,21 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Schach für alle"
+    description="Unser Fokus liegt auf einem Design welches ALLE Menschen einschließt, so wird auf wichtige W3 Standards geachtet."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
-      reverse
-    />
-    <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="Inklusiv"
+      description="Innerhalb der App wird ein ganzheitlich inklusives Konzept umgesetzt. Alle Lerninhalte und Spielkomponenten sind mit einfacher Sprache verfasst. Unser Motto ist: Gemeinsam zum Erfolg!"
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="inclusive feature alt text"
+    />
+    <VerticalFeatureRow
+      title="Kostenlos + Open Source"
+      description="Einfach Schach ist kostenlos verfügbar und wird dies auch immer bleiben. Außerdem ist die gesamte Applikation Open Source und steht auf Github zur Verfügung."
+      image="/assets/images/feature2.svg"
+      imageAlt="free feature alt text"
+      reverse
     />
   </Section>
 );
